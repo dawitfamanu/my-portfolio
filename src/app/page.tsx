@@ -100,11 +100,11 @@ export default function Home() {
               <Image
                 src={profilepic}
                 alt="Profile Picture"
-                className="w-fit h-fit rounded-full object-cover shadow-md"
-                width={200}
-                height={200}
+                className="rounded-full object-cover shadow-md"
+                width={250}
+                height={270}
               />
-              <p className="text-lg text-gray-600 text-justify">
+              <p className="text-xl text-gray-600 text-justify">
                 I’m a passionate Frontend Developer with a strong foundation in
                 computer science, having graduated from Seoul National
                 University`s CS department. Over the past two years, I’ve
@@ -162,7 +162,7 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h2 className="text-4xl font-bold mb-4">Resume</h2>
             <a
-              href="/src/app/assets/Dawit_resume.pdf"
+              href="/Dawit_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-600 underline"
