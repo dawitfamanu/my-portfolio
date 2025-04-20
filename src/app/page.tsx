@@ -162,7 +162,7 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h2 className="text-4xl font-bold mb-4">Resume</h2>
             <a
-              href="my-portfolio/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-600 underline"
