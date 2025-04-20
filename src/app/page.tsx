@@ -65,7 +65,7 @@ export default function Home() {
       <main className="min-h-screen bg-gray-100 text-gray-800 font-sans">
         <header className="bg-white shadow-md sticky top-0 z-50">
           <div className="container mx-auto p-4 flex justify-between items-center">
-            <h1 className="text-2xl font-bold">My Portfolio</h1>
+            <h1 className="text-2xl font-bold">Dawit F. Amanu</h1>
             <nav>
               <ul className="flex space-x-4">
                 <li>
