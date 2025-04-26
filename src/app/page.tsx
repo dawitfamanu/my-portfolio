@@ -140,6 +140,8 @@ export default function Home() {
                       <a
                         href={project.url}
                         className="text-blue-500 hover:underline"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       >
                         View Project
                       </a>
