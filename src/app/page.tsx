@@ -164,12 +164,20 @@ export default function Home() {
           <div className="container mx-auto text-center">
             <h2 className="text-4xl font-bold mb-4">Resume</h2>
             <a
-              href="/my-portfolio/resume.pdf"
+              href="/my-portfolio/resume_eng.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-lg text-gray-600 underline"
             >
-              Click here to see my resume
+              English Resume
+            </a>
+            <a
+              href="/my-portfolio/resume_kr.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg text-gray-600 underline"
+            >
+              Korean Resume
             </a>
           </div>
         </section>
@@ -209,7 +217,7 @@ export default function Home() {
                 />
               </a>
               <a
-                href="https://https://github.com/dawitfamanu"
+                href="https://github.com/dawitfamanu"
                 className="text-white px-6 py-2 rounded-lg "
                 target="_blank"
                 rel="noopener noreferrer"
