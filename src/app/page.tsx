@@ -163,22 +163,24 @@ export default function Home() {
         <section id="resume" className="bg-gray-50 py-16">
           <div className="container mx-auto text-center">
             <h2 className="text-4xl font-bold mb-4">Resume</h2>
-            <a
-              href="/my-portfolio/resume_eng.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg text-gray-600 underline"
-            >
-              English Resume
-            </a>
-            <a
-              href="/my-portfolio/resume_kr.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-lg text-gray-600 underline"
-            >
-              Korean Resume
-            </a>
+            <div className="flex flex-col gap-4">
+              <a
+                href="/my-portfolio/resume_eng.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg text-gray-600 underline"
+              >
+                English Resume
+              </a>
+              <a
+                href="/my-portfolio/resume_kr.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-lg text-gray-600 underline"
+              >
+                Korean Resume
+              </a>
+            </div>
           </div>
         </section>
 
