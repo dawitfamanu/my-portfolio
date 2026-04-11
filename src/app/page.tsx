@@ -165,7 +165,7 @@ export default function Home() {
             <h2 className="text-4xl font-bold mb-4">Resume</h2>
             <div className="flex flex-col gap-4">
               <a
-                href="/my-portfolio/resume_eng.pdf"
+                href="/resume_eng.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg text-gray-600 underline"
@@ -173,7 +173,7 @@ export default function Home() {
                 English Resume
               </a>
               <a
-                href="/my-portfolio/resume_kr.pdf"
+                href="/resume_kr.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-lg text-gray-600 underline"
