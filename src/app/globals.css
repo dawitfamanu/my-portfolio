@@ -1,13 +1,13 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0A0908;
-  --foreground: #f1f5f9;
-  --accent-from: #E8453C;
-  --accent-to: #F2994A;
-  --accent-glow: rgba(232, 69, 60, 0.3);
-  --card-bg: rgba(255, 255, 255, 0.03);
-  --card-border: rgba(255, 255, 255, 0.08);
+  --background: hsl(0, 0%, 87%);
+  --foreground: hsl(0, 0%, 0%);
+  --accent-from: hsl(14, 98%, 50%);
+  --accent-to: hsl(20, 95%, 55%);
+  --accent-glow: hsla(14, 98%, 50%, 0.25);
+  --card-bg: rgba(0, 0, 0, 0.03);
+  --card-border: rgba(0, 0, 0, 0.12);
 }
 
 @theme inline {
@@ -28,17 +28,17 @@ body {
 
 /* Accent text utility */
 .gradient-text {
-  color: #E8453C;
+  color: hsl(14, 98%, 50%);
 }
 
 
 /* Glow effects */
 .glow-accent {
-  box-shadow: 0 0 40px rgba(232, 69, 60, 0.15);
+  box-shadow: 0 0 40px hsla(14, 98%, 50%, 0.12);
 }
 
 .glow-accent-sm {
-  box-shadow: 0 0 20px rgba(232, 69, 60, 0.2);
+  box-shadow: 0 0 20px hsla(14, 98%, 50%, 0.15);
 }
 
 /* Card styles */
@@ -60,7 +60,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background: #E8453C;
+  background: hsl(14, 98%, 50%);
   transition: width 0.3s ease;
 }
 
@@ -77,9 +77,9 @@ body {
   border-radius: 9999px;
   font-size: 0.75rem;
   font-weight: 500;
-  background: rgba(232, 69, 60, 0.1);
-  border: 1px solid rgba(232, 69, 60, 0.22);
-  color: #F4A96B;
+  background: hsla(14, 98%, 50%, 0.08);
+  border: 1px solid hsla(14, 98%, 50%, 0.3);
+  color: hsl(14, 80%, 38%);
 }
 
 /* Scrollbar styling */
@@ -88,14 +88,14 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #0d0a08;
+  background: hsl(0, 0%, 83%);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(232, 69, 60, 0.4);
+  background: hsla(14, 98%, 50%, 0.5);
   border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(232, 69, 60, 0.7);
+  background: hsla(14, 98%, 50%, 0.8);
 }
