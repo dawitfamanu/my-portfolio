@@ -5,6 +5,7 @@ import emojihub from "@/app/assets/emojihub.png";
 import githubicon from "@/app/assets/githubicon.png";
 import guild from "@/app/assets/guild.png";
 import linkedinicon from "@/app/assets/linkedinicon.png";
+import piqq from "@/app/assets/piqq.png";
 import profilepic from "@/app/assets/profilepic.jpg";
 import tastebuds from "@/app/assets/tastebuds.png";
 import guildpic from "@/app/assets/theguildlandingpage.png";
@@ -26,6 +27,14 @@ type Project = {
 };
 
 const projects: Project[] = [
+  {
+    title: "Piqq — Baseball Community App",
+    description:
+      "A community platform for baseball fans to share highlights, discuss games, and connect with fellow supporters. Polymarket like Prediction Market for baseball games with fun prizes. Built with Next.js and React, TailwindCSS, and TanStack Query for efficient server-state management, caching, and a responsive, real-time feel.",
+    image: piqq,
+    url: "https://piqq.me",
+    tags: ["Next.js", "React", "TypeScript", "TailwindCSS", "TanStack Query"],
+  },
   {
     title: "The GUILD's Landing Page",
     description:
